@@ -2,7 +2,7 @@
 The resulting elements are different depending on the number of workers used in the tf.data service. This is due to a *race condition on the split provider for dataset3*. The dataset graph was constructed to provoke that situation, consult [sources/pipeline.py](sources/pipeline.py) for details.
 
 ```
-(tf28_orig) dan@thinkdan ~/eth/mthesis/tf-data-nondeterminism $ ./one-worker-fails-mid-epoch.sh
+(tf28_orig) dan@thinkdan ~/eth/mthesis/tf-data-nondeterminism $ ./experiment.sh
 
 Executing with 3 Workers
 starting worker 1

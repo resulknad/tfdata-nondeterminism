@@ -1,0 +1,10 @@
+Script started on 2022-03-23 16:31:33+01:00 [<not executed on terminal>]
+2022-03-23 16:31:34.091769: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2022-03-23 16:31:34.091799: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2022-03-23 16:31:35.598178: I tensorflow/core/data/service/dispatcher_impl.cc:190] Running with fault_tolerant_mode=False. The dispatcher will not be able to recover its state on restart.
+2022-03-23 16:31:35.598206: I tensorflow/core/data/service/server_lib.cc:64] Started tf.data DispatchServer running at 0.0.0.0:4444
+> (Dan) The dispatcher address grpc://localhost:4444
+2022-03-23 16:31:37.754254: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+
+Script done on 2022-03-23 16:31:47+01:00 [COMMAND_EXIT_CODE="0"]

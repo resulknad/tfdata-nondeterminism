@@ -1,0 +1,27 @@
+Script started on 2022-03-23 16:31:35+01:00 [<not executed on terminal>]
+2022-03-23 16:31:36.110067: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2022-03-23 16:31:36.110096: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2022-03-23 16:31:37.594525: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2022-03-23 16:31:37.594561: W tensorflow/stream_executor/cuda/cuda_driver.cc:269] failed call to cuInit: UNKNOWN ERROR (303)
+2022-03-23 16:31:37.594578: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (thinkdan): /proc/driver/nvidia/version does not exist
+2022-03-23 16:31:37.596024: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+/home/dan/.pyenv/versions/tf28_orig/lib/python3.9/site-packages/tensorflow/python/data/ops/dataset_ops.py:2014: UserWarning: The `deterministic` argument has no effect unless the `num_parallel_calls` argument is specified.
+  warnings.warn("The `deterministic` argument has no effect unless the "
+2022-03-23 16:31:37.734647: E tensorflow/core/framework/dataset.cc:580] FAILED_PRECONDITION: Cannot compute input sources for dataset of type ParallelMapDatasetV2, because sources could not be computed for input dataset of type DataServiceDatasetV3
+[0, 10101, 20202, 30303, 40404, 50505, 60606, 70707, 80808, 90909, 101010, 111111, 121212, 131313, 141414, 151515, 161616, 171717, 181818, 191919]
+Epoch took: 1.0656003952026367
+[0, 10101, 20202, 30303, 40404, 50505, 60606, 70707, 80808, 90909, 101010, 111111, 121212, 131313, 141414, 151515, 161616, 171717, 181818, 191919]
+Epoch took: 1.04494047164917
+[0, 10101, 20202, 30303, 40404, 50505, 60606, 70707, 80808, 90909, 101010, 111111, 121212, 131313, 141414, 151515, 161616, 171717, 181818, 191919]
+Epoch took: 1.0345196723937988
+[0, 10101, 20202, 30303, 40404, 50505, 60606, 70707, 80808, 90909, 101010, 111111, 121212, 131313, 141414, 151515, 161616, 171717, 181818, 191919]
+Epoch took: 1.0266902446746826
+[0, 10101, 20202, 30303, 40404, 50505, 60606, 70707, 80808, 90909, 101010, 111111, 121212, 131313, 141414, 151515, 161616, 171717, 181818, 191919]
+Epoch took: 1.0371127128601074
+[0, 10101, 20202, 30303, 40404, 50505, 60606, 70707, 80808, 90909, 101010, 111111, 121212, 131313, 141414, 151515, 161616, 171717, 181818, 191919]
+Epoch took: 1.0482900142669678
+[0, 10101, 20202, 30303, 40404, 50505, 60606, 70707, 80808, 90909, 101010, 111111, 121212, 131313, 141414, 151515, 161616, 171717, 181818, 191919]
+Epoch took: 1.0358257293701172
+
+Script done on 2022-03-23 16:31:47+01:00 [COMMAND_EXIT_CODE="0"]
